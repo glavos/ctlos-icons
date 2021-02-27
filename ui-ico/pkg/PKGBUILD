@@ -12,7 +12,7 @@ source=("git+$url.git")
 sha256sums=('SKIP')
 
 package() {
-  cd ctlos-icons/ui-ico/ || return
+  cd glavos-icons/ui-ico/ || return
   mkdir -p "${pkgdir}/usr/share/icons"
   cp -rf *-ico "${pkgdir}/usr/share/icons/"
 }

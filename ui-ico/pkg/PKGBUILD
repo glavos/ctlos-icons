@@ -3,10 +3,10 @@
 pkgname=ui-ico
 pkgver=1.0
 pkgrel=1
-pkgdesc="A Combination of Suru++ and Papirus Icons for use in Ctlos"
-url="https://github.com/ctlos/ctlos-icons"
+pkgdesc="A Combination of Suru++ and Papirus Icons for use in Glavos"
+url="https://github.com/glavos/glavos-icons"
 arch=('x86_64')
-groups=('ctlos')
+groups=('glavos')
 depends=('papirus-icon-theme')
 source=("git+$url.git")
 sha256sums=('SKIP')
